@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Javascript Training</title>
+    </head>
+    <body>
+        <h1>Javascript Variable</h1> <p id="demo"></p>
+
+    <script>
+        var x = 5;
+        var y = 3;
+        var sum = x+y;
+        document.write(x);
+        document.write(y);
+        document.write(sum);
+
+        let cars = ['bmw','toyota','honda'];
+        console.log(cars[1]);
+
+        var My_function = new Function("a", "b", "return a+b");
+        var x = My_function(2,3);
+        document.getElementById("demo").innerHTML= "The sum is " + x
+
+    </script>    
+
+    <script>
+        var y = function(a,b){return a+b}
+        x = y(8,5)
+        document.write(x)
+    </script>
+    </body>
+</html>
